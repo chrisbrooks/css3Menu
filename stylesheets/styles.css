@@ -6,6 +6,11 @@
 }
 
 /* line 14, ../sass/styles.scss */
+body {
+  background: #000;
+}
+
+/* line 17, ../sass/styles.scss */
 #side-nav {
   position: absolute;
   left: 0px;
@@ -22,7 +27,7 @@
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-/* line 30, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 #side-nav .nav-group .close-button {
   background: url("../images/closeArrow.png") no-repeat 13px 10px;
   height: 32px;
@@ -37,7 +42,7 @@
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-/* line 44, ../sass/styles.scss */
+/* line 47, ../sass/styles.scss */
 #side-nav .nav-group h4 {
   color: #cccccc;
   font-weight: normal;
@@ -52,7 +57,7 @@
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-/* line 58, ../sass/styles.scss */
+/* line 61, ../sass/styles.scss */
 #side-nav .nav-group ul {
   list-style-type: none;
   padding: 0;
@@ -62,7 +67,7 @@
   -webkit-transition: all 1s ease;
   transition: all 500ms ease;
 }
-/* line 66, ../sass/styles.scss */
+/* line 69, ../sass/styles.scss */
 #side-nav .nav-group ul li {
   position: relative;
   cursor: pointer;
@@ -79,35 +84,35 @@
   -webkit-transition: all .25s linear;
   transition: all .25s linear;
 }
-/* line 82, ../sass/styles.scss */
+/* line 85, ../sass/styles.scss */
 #side-nav .nav-group ul li.football {
   background-image: url("../images/nav-icon-football.png");
 }
-/* line 83, ../sass/styles.scss */
+/* line 86, ../sass/styles.scss */
 #side-nav .nav-group ul li.horseracing {
   background-image: url("../images/nav-icon-horseracing.png");
 }
-/* line 84, ../sass/styles.scss */
+/* line 87, ../sass/styles.scss */
 #side-nav .nav-group ul li.tennis {
   background-image: url("../images/nav-icon-tennis.png");
 }
-/* line 86, ../sass/styles.scss */
+/* line 89, ../sass/styles.scss */
 #side-nav .nav-group ul li:hover {
   background-color: #343b3e;
 }
-/* line 88, ../sass/styles.scss */
+/* line 91, ../sass/styles.scss */
 #side-nav .nav-group ul li:hover.football {
   background-image: url("../images/nav-icon-football-hover.png");
 }
-/* line 89, ../sass/styles.scss */
+/* line 92, ../sass/styles.scss */
 #side-nav .nav-group ul li:hover.horseracing {
   background-image: url("../images/nav-icon-horseracing-hover.png");
 }
-/* line 90, ../sass/styles.scss */
+/* line 93, ../sass/styles.scss */
 #side-nav .nav-group ul li:hover.tennis {
   background-image: url("../images/nav-icon-tennis-hover.png");
 }
-/* line 91, ../sass/styles.scss */
+/* line 94, ../sass/styles.scss */
 #side-nav .nav-group ul li:hover .favourite {
   opacity: 1;
   transition: opacity .25s ease-in-out;
@@ -115,7 +120,7 @@
   -webkit-transition: opacity .25s ease-in-out;
   transition: opacity .25s ease-in-out;
 }
-/* line 99, ../sass/styles.scss */
+/* line 102, ../sass/styles.scss */
 #side-nav .nav-group ul li a {
   -moz-transition: all .25s linear;
   -o-transition: all .25s linear;
@@ -128,14 +133,14 @@
   width: 100%;
   text-overflow: ellipsis;
 }
-/* line 110, ../sass/styles.scss */
+/* line 113, ../sass/styles.scss */
 #side-nav .nav-group ul li a:hover {
   color: #00ade9;
   max-width: 140px;
   white-space: nowrap;
   overflow: hidden;
 }
-/* line 116, ../sass/styles.scss */
+/* line 119, ../sass/styles.scss */
 #side-nav .nav-group ul li a .favourite, #side-nav .nav-group ul li a .favourite span {
   position: absolute;
   top: 0;
@@ -151,41 +156,41 @@
   -webkit-transition: opacity .25s ease-in-out;
   -o-transition: opacity .25s ease-in-out;
 }
-/* line 132, ../sass/styles.scss */
+/* line 135, ../sass/styles.scss */
 #side-nav .nav-group ul li a .favourite span {
   opacity: 0;
 }
-/* line 134, ../sass/styles.scss */
+/* line 137, ../sass/styles.scss */
 #side-nav .nav-group ul li a .favourite span:hover {
   background-image: url("../images/left-nav-favourite-active.png");
   opacity: 1;
 }
-/* line 139, ../sass/styles.scss */
+/* line 142, ../sass/styles.scss */
 #side-nav .nav-group ul li a .favourite.activated {
   background-image: url("../images/left-nav-favourite-activated.png");
 }
-/* line 145, ../sass/styles.scss */
+/* line 148, ../sass/styles.scss */
 #side-nav .nav-group ul li.active {
   background-color: #3e474a;
   box-shadow: inset -3px 0px 0px 0px #00ade9;
 }
-/* line 148, ../sass/styles.scss */
+/* line 151, ../sass/styles.scss */
 #side-nav .nav-group ul li.active:hover {
   color: #fff;
 }
-/* line 150, ../sass/styles.scss */
+/* line 153, ../sass/styles.scss */
 #side-nav .nav-group ul li.active:hover.horseracing {
   background-image: url("../images/nav-icon-horseracing.png");
 }
-/* line 153, ../sass/styles.scss */
+/* line 156, ../sass/styles.scss */
 #side-nav .nav-group ul li.active a:hover {
   color: white;
 }
-/* line 161, ../sass/styles.scss */
+/* line 164, ../sass/styles.scss */
 #side-nav.closed {
   width: 40px;
 }
-/* line 163, ../sass/styles.scss */
+/* line 166, ../sass/styles.scss */
 #side-nav.closed .close-button {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -193,17 +198,17 @@
   transform: rotate(180deg);
   background-position: 13px 10px;
 }
-/* line 170, ../sass/styles.scss */
+/* line 173, ../sass/styles.scss */
 #side-nav.closed h4 {
   text-indent: -100px;
   width: 40px;
   opacity: 0;
 }
-/* line 176, ../sass/styles.scss */
+/* line 179, ../sass/styles.scss */
 #side-nav.closed ul:last-child {
   margin-top: -35px;
 }
-/* line 180, ../sass/styles.scss */
+/* line 183, ../sass/styles.scss */
 #side-nav.closed ul li.active {
   -webkit-transition-delay: .25s;
   -moz-transition-delay: .25s;
@@ -211,11 +216,11 @@
   transition-delay: .25s;
   width: 40px;
 }
-/* line 187, ../sass/styles.scss */
+/* line 190, ../sass/styles.scss */
 #side-nav.closed ul li.active:hover .favourite {
   opacity: 0;
 }
-/* line 192, ../sass/styles.scss */
+/* line 195, ../sass/styles.scss */
 #side-nav.closed ul li a {
   opacity: 0;
   width: 40px;
