@@ -1,0 +1,223 @@
+/* line 9, ../sass/styles.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 14, ../sass/styles.scss */
+#side-nav {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0;
+  width: 150px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #212426;
+  font-family: arial;
+  font-size: 12px;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+/* line 30, ../sass/styles.scss */
+#side-nav .nav-group .close-button {
+  background: url("../images/closeArrow.png") no-repeat 13px 10px;
+  height: 32px;
+  width: 40px;
+  z-index: 100;
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  cursor: pointer;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+/* line 44, ../sass/styles.scss */
+#side-nav .nav-group h4 {
+  color: #cccccc;
+  font-weight: normal;
+  margin: 0px 0 1px 0px;
+  padding: 10px 5px;
+  font-size: 1.1em;
+  width: 150px;
+  background: #2d3134;
+  opacity: 1;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+/* line 58, ../sass/styles.scss */
+#side-nav .nav-group ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  -moz-transition: all 1s ease;
+  -o-transition: all 500ms ease;
+  -webkit-transition: all 1s ease;
+  transition: all 500ms ease;
+}
+/* line 66, ../sass/styles.scss */
+#side-nav .nav-group ul li {
+  position: relative;
+  cursor: pointer;
+  width: 150px;
+  color: white;
+  border-bottom: 1px solid #212426;
+  background-repeat: no-repeat;
+  background-position: 10px 7px;
+  background-color: #282c2e;
+  white-space: nowrap;
+  height: 34px;
+  -moz-transition: all .25s linear;
+  -o-transition: all .25s linear;
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+}
+/* line 82, ../sass/styles.scss */
+#side-nav .nav-group ul li.football {
+  background-image: url("../images/nav-icon-football.png");
+}
+/* line 83, ../sass/styles.scss */
+#side-nav .nav-group ul li.horseracing {
+  background-image: url("../images/nav-icon-horseracing.png");
+}
+/* line 84, ../sass/styles.scss */
+#side-nav .nav-group ul li.tennis {
+  background-image: url("../images/nav-icon-tennis.png");
+}
+/* line 86, ../sass/styles.scss */
+#side-nav .nav-group ul li:hover {
+  background-color: #343b3e;
+}
+/* line 88, ../sass/styles.scss */
+#side-nav .nav-group ul li:hover.football {
+  background-image: url("../images/nav-icon-football-hover.png");
+}
+/* line 89, ../sass/styles.scss */
+#side-nav .nav-group ul li:hover.horseracing {
+  background-image: url("../images/nav-icon-horseracing-hover.png");
+}
+/* line 90, ../sass/styles.scss */
+#side-nav .nav-group ul li:hover.tennis {
+  background-image: url("../images/nav-icon-tennis-hover.png");
+}
+/* line 91, ../sass/styles.scss */
+#side-nav .nav-group ul li:hover .favourite {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease-in-out;
+}
+/* line 99, ../sass/styles.scss */
+#side-nav .nav-group ul li a {
+  -moz-transition: all .25s linear;
+  -o-transition: all .25s linear;
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+  padding: 10px 15px 10px 40px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  text-overflow: ellipsis;
+}
+/* line 110, ../sass/styles.scss */
+#side-nav .nav-group ul li a:hover {
+  color: #00ade9;
+  max-width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* line 116, ../sass/styles.scss */
+#side-nav .nav-group ul li a .favourite, #side-nav .nav-group ul li a .favourite span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 16px;
+  height: 100%;
+  color: white;
+  background: url("../images/left-nav-favourite.png") no-repeat right 6px top 8px;
+  opacity: 0;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  -o-transition: opacity .25s ease-in-out;
+}
+/* line 132, ../sass/styles.scss */
+#side-nav .nav-group ul li a .favourite span {
+  opacity: 0;
+}
+/* line 134, ../sass/styles.scss */
+#side-nav .nav-group ul li a .favourite span:hover {
+  background-image: url("../images/left-nav-favourite-active.png");
+  opacity: 1;
+}
+/* line 139, ../sass/styles.scss */
+#side-nav .nav-group ul li a .favourite.activated {
+  background-image: url("../images/left-nav-favourite-activated.png");
+}
+/* line 145, ../sass/styles.scss */
+#side-nav .nav-group ul li.active {
+  background-color: #3e474a;
+  box-shadow: inset -3px 0px 0px 0px #00ade9;
+}
+/* line 148, ../sass/styles.scss */
+#side-nav .nav-group ul li.active:hover {
+  color: #fff;
+}
+/* line 150, ../sass/styles.scss */
+#side-nav .nav-group ul li.active:hover.horseracing {
+  background-image: url("../images/nav-icon-horseracing.png");
+}
+/* line 153, ../sass/styles.scss */
+#side-nav .nav-group ul li.active a:hover {
+  color: white;
+}
+/* line 161, ../sass/styles.scss */
+#side-nav.closed {
+  width: 40px;
+}
+/* line 163, ../sass/styles.scss */
+#side-nav.closed .close-button {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  background-position: 13px 10px;
+}
+/* line 170, ../sass/styles.scss */
+#side-nav.closed h4 {
+  text-indent: -100px;
+  width: 40px;
+  opacity: 0;
+}
+/* line 176, ../sass/styles.scss */
+#side-nav.closed ul:last-child {
+  margin-top: -35px;
+}
+/* line 180, ../sass/styles.scss */
+#side-nav.closed ul li.active {
+  -webkit-transition-delay: .25s;
+  -moz-transition-delay: .25s;
+  -o-transition-delay: .25s;
+  transition-delay: .25s;
+  width: 40px;
+}
+/* line 187, ../sass/styles.scss */
+#side-nav.closed ul li.active:hover .favourite {
+  opacity: 0;
+}
+/* line 192, ../sass/styles.scss */
+#side-nav.closed ul li a {
+  opacity: 0;
+  width: 40px;
+  padding: 8px 0px 8px 40px;
+}

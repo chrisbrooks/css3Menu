@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="stylesheets/styles.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script>
+			$( document ).ready(function() {
+				$('.close-button').on('click', function() {
+					$('#side-nav, #main-content').toggleClass('closed');
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<nav id="side-nav">
+			<div class="scrollbar"><div class="slide"></div></div>
+			<div class="nav-group">
+				<h4>My Sports</h4><div class="close-button"></div>
+				<ul>
+					<li class="football"><a href="">Football<span class="favourite activated"></span></a></li>
+					<li class="horseracing"><a href="">Horse Racing<span class="favourite activated"></span></a></li>
+					<li class="tennis"><a href="">Tennis<span class="favourite active activated"></span></a></li>
+				</ul>
+				<h4>Other Sports</h4>
+				<ul>
+					<li class="football"><a href="">Basketball<div class="favourite"><span></span></div></a></li>
+					<li class="horseracing"><a href="">Cricket<div class="favourite"><span></span></div></a></li>
+					<li class="tennis"><a href="">Darts<div class="favourite"><span></span></div></a></li>
+					<li class="football"><a href="">Golf<div class="favourite"><span></span></div></a></li>
+					<li class="horseracing active"><a href="">Rugby Union<div class="favourite"><span></span></div></a></li>
+					<li class="tennis"><a href="">Snooker<div class="favourite"><span></span></div></a></li>
+					<li class="football"><a href="">Baseball<div class="favourite"><span></span></div></a></li>
+					<li class="horseracing"><a href="">MMA<div class="favourite"><span></span></div></a></li>
+					<li class="tennis"><a href="">US Motor Racing<div class="favourite"><span></span></div></a></li>
+					<li class="football"><a href="">Boxing<div class="favourite"><span></span></div></a></li>
+					<li class="horseracing"><a href="">Motor Sports</a><div class="favourite"></span></li>
+					<li class="tennis"><a href="">Vollyball<div class="favourite"><span></span></div></a></li>
+					<li class="football"><a href="">Cycling<div class="favourite"><span></span></div></a></li>
+					<li class="football"><a href="">Politics<div class="favourite"><span></span></div></a></li>
+					<li class="football"><a href="">Winter Sports<div class="favourite"><span></span></div></a></li>
+					<li class="football"><a href="">Grayhounds<div class="favourite"><span></span></div></a></li>
+					<li class="football"><a href="">Rugby League<div class="favourite"><span></span></div></a></li>
+					<li class="football"><a href="">US Football<div class="favourite"><span></span></div></a></li>
+					<li class="football"><a href="">Handball<div class="favourite"><span></span></div></a></li>
+					<li class="football"><a href="">Specials<div class="favourite"><span></span></div></a></li>
+					<li class="football"><a href="">Ice Hockey<div class="favourite"><span></span></div></a></li>
+				</ul>
+			</div>
+		</nav>
+	</body>
+</html>
