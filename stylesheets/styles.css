@@ -47,7 +47,7 @@ body {
   color: #cccccc;
   font-weight: normal;
   margin: 0px 0 1px 0px;
-  padding: 10px 5px;
+  padding: 10px 10px;
   font-size: 1.1em;
   width: 150px;
   background: #2d3134;
@@ -72,7 +72,7 @@ body {
   position: relative;
   cursor: pointer;
   width: 150px;
-  color: white;
+  color: #fff;
   border-bottom: 1px solid #212426;
   background-repeat: no-repeat;
   background-position: 10px 7px;
@@ -148,7 +148,7 @@ body {
   width: 30px;
   height: 16px;
   height: 100%;
-  color: white;
+  color: #fff;
   background: url("../images/left-nav-favourite.png") no-repeat right 6px top 8px;
   opacity: 0;
   transition: opacity .25s ease-in-out;
@@ -184,7 +184,7 @@ body {
 }
 /* line 156, ../sass/styles.scss */
 #side-nav .nav-group ul li.active a:hover {
-  color: white;
+  color: #fff;
 }
 /* line 164, ../sass/styles.scss */
 #side-nav.closed {
